@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Elrond Shibas</h1>
     <p>Welcome to the NFT era, fren!</p>
-    <p>Elrond blockchain is home to 5000 Shiba pets tha can pay you! Join us in Shibaworld.</p>
+    <p>Elrond blockchain is home to 5000 Shiba pets that pay you! Join us in Shibaworld.</p>
     <StaticImage
       src="../images/es164.png"
       width={300}
@@ -21,7 +21,6 @@ const IndexPage = () => (
     />
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
     </p>
