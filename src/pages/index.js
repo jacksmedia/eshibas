@@ -8,15 +8,15 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Elrond Shibas</h1>
+    <p>Welcome to the NFT era, fren!</p>
+    <p>Elrond blockchain is home to 5000 Shiba pets tha can pay you! Join us in Shibaworld.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/es164.png"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="An Elrond Shiba this one is number 164"
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
