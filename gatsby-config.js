@@ -7,15 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-your-fonts',
-      options: {
-        host: 'jacksmedia.github.io/fonts',
-        fonts: [
-          `04B30.css`, // font-family: '043B0';
-        ]
-      }
-    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
