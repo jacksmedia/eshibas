@@ -14,6 +14,10 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+      options: {
+        name: `fonts`,
+        path: `${__dirname}/src/fonts`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -23,7 +27,7 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#0172BD`,
+        background_color: `#0d0d0d`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#0172BD`,

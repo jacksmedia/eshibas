@@ -1,8 +1,10 @@
 /* https://bulma.io/documentation/overview/start/ used for layout */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 @font-face {
   font-family: "04B30";
+  font-weight: normal;
   src: local("04B30") url("./04B30.ttf") format('truetype');
 }
 
@@ -18,7 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -602,6 +603,10 @@ pre tt:after {
 .header-styling{
   background: #C4939E;
   marginBottom: 1.45rem;
+}
+
+* {
+  font-family: "Fuzzy Bubbles";
 }
 
 @media only screen and (max-width: 480px) {
