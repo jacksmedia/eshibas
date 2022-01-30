@@ -10,7 +10,8 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Elrond Shibas</h1>
     <p>Welcome to the NFT era, fren!</p>
-    <p>Elrond blockchain is home to 5000 Shiba pets that pay you! Join us in Shibaworld.</p>
+    <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
+    <h1>Join us in Shibaworld.</h1>
     <StaticImage
       src="../images/es164.png"
       width={300}
@@ -20,9 +21,9 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/rarity/">Rarity</Link> <br />
-      <Link to="/social">Social Links</Link> <br />
-      <Link to="/wave-5">Wave 5</Link>
+      <Link to="/rarity/">Rarity</Link>
+      <Link to="/social">Social Links</Link>
+      <Link to="/wave-6">Wave 6</Link>
     </p>
   </Layout>
 )
