@@ -14,19 +14,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-      options: {
-        name: `fonts`,
-        path: `${__dirname}/src/fonts`,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["04b"],
-          urls: ["/fonts/04b.ttf"],
-        },
-      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
