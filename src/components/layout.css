@@ -1,5 +1,6 @@
 /* https://bulma.io/documentation/overview/start/ used for layout */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "typography.css";
 
 html {
   -ms-text-size-adjust: 100%;
