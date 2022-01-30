@@ -70,7 +70,7 @@ function Seo({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-    <link href="https://raw.githubusercontent.com/jacksmedia/jacksmedia.github.io/blob/main/fonts/04B30.css" rel="stylesheet" />
+    <link href="https://raw.githubusercontent.com/jacksmedia/jacksmedia.github.io/blob/main/fonts/04B30.css" rel="stylesheet"></link>
     </Helmet>
   )
 }
