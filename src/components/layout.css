@@ -2,11 +2,6 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
-@font-face {
-  font-family: "04B30";
-  font-weight: normal;
-}
-
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -599,9 +594,15 @@ pre tt:after {
   content: "";
 }
 
-.header-styling{
+.header-styling {
   background: #C4939E;
   marginBottom: 1.45rem;
+}
+.footer-styling {
+  color: white;
+  background: #333;
+  padding: 2rem;
+  marginTop: 2rem;
 }
 
 * {

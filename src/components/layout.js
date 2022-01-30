@@ -34,11 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
+        <footer className="footer-styling">
           © {new Date().getFullYear()}, 
           {` `}
           <a href="https://www.jacks.media">Jacks Media</a>
