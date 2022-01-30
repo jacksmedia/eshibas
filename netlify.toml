@@ -1,5 +1,0 @@
-[[headers]]
-  for = "/*.tff"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "application/font-tff"
