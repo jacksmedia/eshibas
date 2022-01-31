@@ -1,10 +1,13 @@
 /* https://bulma.io/documentation/overview/start/ used for layout */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 @font-face {
   font-family: '04B30';
   src: local('04B30.ttf'), url(../fonts/04B30.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PixelUnicode';
+  src: local('pixel-unicode-webfont.woff'), url(../fonts/pixel-unicode-webfont.woff) format('truetype');
 }
 
 html {
@@ -598,26 +601,50 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-
+/* Jacks.Media custom styling; cld be refactored to smaller 'sheets  */
 .header-styling {
   background: #C4939E;
   marginBottom: 1.45rem;
 }
 .footer-styling {
-  color: white;
   background: #333;
   padding: 2rem;
   marginTop: 2rem;
 }
-
-* {
-  font-family: "Fuzzy Bubbles";
+.white-txt {
+  color: white;
+}
+.act-zone {
+  min-height: 110vh;
+  height: 110vh;
+}
+.wafl-background {
+  background: url("../images/wafl.png");
+  background-repeat: repeat;
+  background-size: auto;
 }
 
+.tile {
+  padding: 1rem;
+}
+
+* {
+  font-family: "PixelUnicode";
+  color: #222;
+  font-size: 108%;
+}
 h1 {
   font-family: '04B30';
   color: navy;
   text-shadow:0px 5px 10px #ff00d0,4px -3px 0px #f1f1f1;
+}
+.syrup-text {
+  color: #674314;
+  text-shadow: -3px 3px 1px white,
+  3px 0px 1px white,
+  0px 3px 1px white,
+  3px -3px 1px white;
+
 }
 
 @media only screen and (max-width: 480px) {
