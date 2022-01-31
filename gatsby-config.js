@@ -20,10 +20,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Elrond Shibas`,
+        short_name: `Elrond Shibas`,
         start_url: `/`,
-        background_color: `#0d0d0d`,
+        background_color: `#746457`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#0172BD`,

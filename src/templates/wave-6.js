@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const UsingDSG = () => (
+const Wave6 = () => (
   <Layout>
-    <Seo title="Using DSG" />
+    <Seo title="Wave 6" />
     <h1>Hello from a DSG Page</h1>
     <p>This page is not created until requested by a user.</p>
     <p>
@@ -20,4 +20,4 @@ const UsingDSG = () => (
   </Layout>
 )
 
-export default UsingDSG
+export default Wave6

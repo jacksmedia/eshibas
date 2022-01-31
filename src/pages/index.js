@@ -32,10 +32,50 @@ const IndexPage = () => (
     <div className="level is-mobile wafl-background act-zone">
       <h1 className="syrup-text">WAFL</h1>
     </div>
+    <div className="level is-mobile spacer-zone eshib-bg-1">
+      <h1 className="">shib carousel 1</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-2">
+      <h1 className="">FAQ</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-3">
+      <h1 className="">Whitepaper</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-4">
+      <h1 className="">Rarity</h1>
+      <h1 className="">shib carousel 2</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-5">
+      <h1 className="">Wave 6</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-6">
+      <h1 className="">Roadmap</h1>
+    </div>
+    <div className="level is-mobile wafl-background act-zone">
+      <h1 className="syrup-text">WAFL</h1>
+    </div>
+    <div className="level is-mobile spacer-zone eshib-bg-7">
+      <h1 className="">Social</h1>
+    </div>
     <div className="level is-mobile">
       <Link to="/rarity/">Rarity</Link>
-      <Link to="/social">Social Links</Link>
-      <Link to="/wave-6">Wave 6</Link>
+      <Link to="/whitepaper">Whitepaper</Link>
+      <Link to="/faq">FAQ</Link>
     </div>
   </Layout>
 )

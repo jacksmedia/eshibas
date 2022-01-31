@@ -4,20 +4,23 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const UsingDSG = () => (
+const Roadmap = () => (
   <Layout>
-    <Seo title="Using DSG" />
-    <h1>Hello from a DSG Page</h1>
-    <p>This page is not created until requested by a user.</p>
-    <p>
-      To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/deferred-static-generation/">
-        documentation about Deferred Static Generation
-      </a>
-      .
-    </p>
+    <Seo title="Roadmap to Shibaworld" />
+    <h1>Elrond Shiba v2 - Introducing $WAFL and ShibaWorld</h1>
+    <h2>$WAFL Distribution</h2>
+    <p>There is a maximum total supply of 20,000,000 $WAFL</p>
+    <ul>
+      <li>$WAFL will begin emitting on 2/2/22</li>
+      <li>20,000,000 pre-minted maximum total supply</li>
+      <li>Earned by holding Elrond Shibas (SHIB-50039b) NFT’s</li>
+      <li>Earned by holding SHIBWRLD SFT’s (Collection Coming Soon)</li>
+      <li>Used to buy new collections AND other use cases (See Details Below)</li>
+      <li>When $WAFL is spent in ShibaWorld it is 100% BURNED</li>
+    </ul>
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default UsingDSG
+export default Roadmap

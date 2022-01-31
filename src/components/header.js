@@ -5,8 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header className='header-styling'>
-    <nav className="level">
-      <p className="level-item has-text-centered">
+    <ul className="level unbullet">
+      <li className="level-item has-text-centered">
         <h1>
           <Link
             to="/"
@@ -18,10 +18,10 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
           </Link>
         </h1>
-      </p>
-      <p className="level-item has-text-centered"><Link className="link" to="/whitepaper">Whitepaper</Link></p>
-      <p className="level-item has-text-centered"><Link className="link" to="/social">Social</Link></p>
-      <p className="level-item has-text-centered">
+      </li>
+      <li className="level-item has-text-centered"><Link className="link" to="/whitepaper">Whitepaper</Link></li>
+      <li className="level-item has-text-centered"><Link className="link" to="/social">Social</Link></li>
+      <li className="level-item has-text-centered">
         <StaticImage
           src="../images/mainshib.png"
           width={120}
@@ -30,10 +30,10 @@ const Header = ({ siteTitle }) => (
           alt="An Elrond Shibas only on Elrond"
           style={{ marginBottom: `1.45rem` }}
         />
-      </p>
-      <p className="level-item has-text-centered"><Link className="link" to="/rarity">Rarity</Link></p>
-      <p className="level-item has-text-centered"><Link className="link" to="/faq">FAQ</Link></p>
-    </nav>
+      </li>
+      <li className="level-item has-text-centered"><Link className="link" to="/rarity">Rarity</Link></li>
+      <li className="level-item has-text-centered"><Link className="link" to="/faq">FAQ</Link></li>
+    </ul>
   </header>
 )
 
