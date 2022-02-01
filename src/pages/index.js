@@ -45,12 +45,12 @@ const IndexPage = () => (
       <h1 className="syrup-text">WAFL</h1>
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-3">
-      <h1 className="">Whitepaper</h1>
+      <h1 className="" id="whitepaper">Whitepaper</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
       <h1 className="syrup-text">WAFL</h1>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-4">
+    <div className="level is-mobile spacer-zone eshib-bg-4" id="rarity">
       <h1 className="">Rarity</h1>
       <h1 className="">shib carousel 2</h1>
     </div>
@@ -58,13 +58,13 @@ const IndexPage = () => (
       <h1 className="syrup-text">WAFL</h1>
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-5">
-      <h1 className="">Wave 6</h1>
+      <h1 className="" id="wave6">Wave 6</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
       <h1 className="syrup-text">WAFL</h1>
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-6">
-      <h1 className="">Roadmap</h1>
+      <h1 className="" id="roadmap">Roadmap</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
       <h1 className="syrup-text">WAFL</h1>

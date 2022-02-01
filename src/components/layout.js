@@ -27,7 +27,13 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
-      <footer className="footer-styling ">
+      <footer className="footer-styling">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Sign up for Shiba details" />
+          </div>
+        </div>
         <p className="white-txt">
           MADE WITH LOVE BY ELROND SHIBAS
         </p>

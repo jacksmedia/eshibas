@@ -698,6 +698,12 @@ h1 {
 .unbullet {
   list-style-type: none;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: #f0f;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
