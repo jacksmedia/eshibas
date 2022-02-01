@@ -640,10 +640,14 @@ pre tt:after {
   color: #222;
   font-size: 108%;
 }
-h1 {
+h1, h2, h3 {
   font-family: '04B30';
   color: navy;
   text-shadow:0px 5px 10px #ff00d0,4px -3px 0px #f1f1f1;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "PixelUnicode";
 }
 /* such Shib branding, much wow */
 .syrup-text {

@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
         </h1>
       </li>
       <li className="level-item has-text-centered"><Link className="link" to="/whitepaper">Whitepaper</Link></li>
-      <li className="level-item has-text-centered"><Link className="link" to="/social">Social</Link></li>
+      <li className="level-item has-text-centered"><Link className="link" to="/roadmap">Roadmap</Link></li>
       <li className="level-item has-text-centered">
         <StaticImage
           src="../images/mainshib.png"
@@ -44,12 +44,13 @@ const Header = ({ siteTitle }) => (
       </div>
       <div class="dropdown-menu" id="dropdown-menu" role="menu">
         <div class="dropdown-content">
-          <a href="#whitepaper" class="dropdown-item">Whitepaper</a>
+          <a href="/" class="dropdown-item">Home</a>
+          <a href="/whitepaper" class="dropdown-item">Whitepaper</a>
           <a class="dropdown-item">wowowowowowowow</a>
-          <a href="#rarity" class="dropdown-item">Rarity</a>
+          <a href="/rarity" class="dropdown-item">Rarity</a>
           <a href="#wave6" class="dropdown-item">Wave 6</a>
           <hr class="dropdown-divider" />
-          <a href="#roadmap" class="dropdown-item">Roadpmap</a>
+          <a href="/roadmap" class="dropdown-item">Roadmap</a>
         </div>
       </div>
     </div>

@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Alexander Jacks <alex@j4cks.com>",
   "dependencies": {
+    "bulma-timeline": "^3.0.5",
+    "font-awesome": "^4.7.0",
     "gatsby": "^4.6.0",
     "gatsby-plugin-gatsby-cloud": "^4.6.0",
     "gatsby-plugin-image": "^2.6.0",
