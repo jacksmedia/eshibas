@@ -7,6 +7,9 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import Navbar from './Navbar/Navbar'
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -25,7 +28,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Navbar />
       <main>{children}</main>
       <footer className="footer-styling">
         <div class="field">
