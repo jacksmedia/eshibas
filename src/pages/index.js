@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import IO from "../components/io"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -30,7 +29,7 @@ const IndexPage = () => (
       </p>
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">WAFL is the Token Elrond Shibs earn you!</h1>
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-1">
       <h1 className="">shib carousel 1</h1>
@@ -46,41 +45,37 @@ const IndexPage = () => (
       />
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">Not just 1 WAFL per Shib... also LKMEX!!</h1>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-2">
-      <h1 className="">FAQ</h1>
-    </div>
-    <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
-    </div>
-    <div className="level is-mobile spacer-zone eshib-bg-3">
-      <h1 className="" id="whitepaper">Whitepaper</h1>
+    <div className="level is-mobile spacer-zone eshib-bg-6">
+      <h1 className="tile" id="roadmap">Roadmap</h1>
+      <h1 className="tile" id="roadmap">red e.shibs at seaside</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">WAFL comes from Shiba Gardens, too!</h1>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-4" id="rarity">
+    <div className="level is-mobile spacer-zone eshib-bg-7" id="rarity">
       <h1 className="">Rarity</h1>
       <h1 className="">shib carousel 2</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">Swap WAFL on Maiar</h1>
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-5">
-      <h1 className="" id="wave6">Wave 6</h1>
+      <h1 className="" id="wave6">Wave 6 SOON BORK</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">10 WAFL per week per Garden</h1>
+      <h3 className="syrup-text">Read More in Whitepaper!</h3>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-6">
-      <h1 className="" id="roadmap">Roadmap</h1>
+        <div className="level is-mobile spacer-zone eshib-bg-3">
+      <h1 className="" id="whitepaper">Whitepaper</h1>
     </div>
     <div className="level is-mobile wafl-background act-zone">
-      <h1 className="syrup-text">WAFL</h1>
+      <h1 className="syrup-text">WAFL will buy Rare Shibaworld NFTs</h1>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-7">
-      <h1 className="">Social</h1>
+    <div className="level is-mobile spacer-zone eshib-bg-4">
+      <h1 className="">GHOST SHIBS in forest,foraging cherry and carrot</h1>
     </div>
     <div className="level is-mobile">
       <Link to="/rarity/">Rarity</Link>
