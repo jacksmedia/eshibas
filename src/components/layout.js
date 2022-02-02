@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
           MADE WITH LOVE BY ELROND SHIBAS
         </p>
         <p className="white-txt">
-        Cdo: ERD1X5XYD7WLL5US3RLZTZYFSC8SAZPH5DNRQEN8V90PR34GFPR7S5VQDJV8D7
+        Cdo: erd192mze6gpcan23kzjas9pd4n4th4xcse0lfftpm4gn6rwxuhmvkjse2jjet
         </p>
         <p className="white-txt">
           © {new Date().getFullYear()}, 

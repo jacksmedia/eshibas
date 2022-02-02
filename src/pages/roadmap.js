@@ -13,19 +13,22 @@ const Roadmap = () => (
         <span class="tag is-medium is-primary">Elrond Shiba Roadmap</span>
       </header>
       <div class="timeline-item is-primary">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">Summer 2021</p>
-          <p>Project brainstormed</p>
-        </div>
-      </div>
-      <div class="timeline-item is-warning">
-        <div class="timeline-marker is-image is-32x32">
-          <img src="https://bulma.io/images/placeholders/32x32.png" />
+         <div class="timeline-marker is-image is-32x32">
+          <i class="fa fa-flag"></i>
         </div>
         <div class="timeline-content">
           <p class="heading">December 2021</p>
           <p>First wave</p>
+        </div>
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="heading">Summer 2022</p>
+          <p>Every 28 Days you will get 1 Garden/Castle/Spaceship</p>
+          <p>10 Shiba => Garden</p>
+          <p>25 Shiba => Castle</p>
+          <p>50 Shiba => Spaceship</p>
+          <p>Each Garden/Castle/Spaceship earns WAFL!</p>
+          <p>After 28 days more you will get another garden! Continues until garden supply exhausted.</p>
         </div>
       </div>
       <header class="timeline-header">

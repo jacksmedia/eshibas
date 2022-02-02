@@ -622,7 +622,7 @@ pre tt:after {
 .act-zone {
   min-height: 110vh;
   height: 110vh;
-  background-color: #666;
+  background-color: #6666;
 }
 .spacer-zone {
   min-height: 110vh;
@@ -659,28 +659,43 @@ h4, h5, h6 {
   3px -3px 1px white;
 }
 .eshib-bg-1 {
-  background: radial-gradient(#F9BD22,#F35B24);
+  background: url("../images/bg-piney.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .eshib-bg-2 {
-  background: radial-gradient(#AAA19A,#73665B);
+  background: url("../images/bg-tanesashi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .eshib-bg-3 {
-  background: linear-gradient(#AFCACF,#FE825A);
+  background: url("../images/bg-boaty.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .eshib-bg-4 {
-  background: linear-gradient(#65A09D,#3C3232);
+  background: url("../images/bg-cloudy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .eshib-bg-5 {
-  background: linear-gradient(#D66A01,#D66A01);
+  background: url("../images/bg-ghosty.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
-.eshib-bg-6 {
-  background: linear-gradient(#C1919B,#43373A);
+.eshib-bg-6 {background: radial-gradient(#AAA19A,#73665B);}
+.eshib-bg-7 {background: linear-gradient(#AFCACF,#FE825A);}
+.eshib-bg-8 {background: linear-gradient(#65A09D,#3C3232);}
+.eshib-bg-9 {background: linear-gradient(#D66A01,#D66A01);}
+.eshib-bg-10 {background: linear-gradient(#C1919B,#43373A);}
+.eshib-bg-11 {background: linear-gradient(#C98998,#4C151C);}
+.eshib-bg-12 {background: linear-gradient(#010100,#010100);}
+
+.tile {
+  padding: 1.2rem;
 }
-.eshib-bg-7 {
-  background: linear-gradient(#C98998,#4C151C);
-}
-.eshib-bg-11 {
-  background: linear-gradient(#010100,#010100);
+p {
+  padding-left: 1.2rem;
 }
 
 .unbullet {

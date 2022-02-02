@@ -6,15 +6,12 @@ import Seo from "../components/seo"
 
 const Wave6 = () => (
   <Layout>
-    <Seo title="Wave 6" />
-    <h1>Hello from a DSG Page</h1>
-    <p>This page is not created until requested by a user.</p>
-    <p>
-      To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/deferred-static-generation/">
-        documentation about Deferred Static Generation
-      </a>
-      .
+    <Seo title="Wave 6" className="level is-mobile center-text"/>
+    <h1>Wave 6 Minting 2/7/22</h1>
+    <h2>1000 Shibas!</h2>
+    <h3>0.8 EGLD</h3>
+    <p>At UTC 1400
+      <a href="https://elrondshibas.com/"> CLICK HERE</a>.
     </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

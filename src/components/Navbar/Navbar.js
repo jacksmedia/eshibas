@@ -7,7 +7,7 @@ const TopBar = styled.nav`
   min-height: 72px;
   height: 10vh;
   display: flex;
-  background: linear-gradient(#666666, #BD8D9A);
+  background: linear-gradient(#BD8D9A, #666666);
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -34,9 +34,15 @@ const Toggle = styled.div`
   cursor: pointer;
   padding: 0 10vw;
 
-  @media (max-width: 768px) {
+  @media (max-width: 9999px) {
     display: flex;
   }
+`
+
+const Socials = styled.div`
+  height: 100%;
+  width: 200px;
+  background: #666;
 `
 
 const Navtray = styled.div`
@@ -45,16 +51,16 @@ const Navtray = styled.div`
   justify-content: flex-end;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 9999px) {
     flex-direction: column;
     position: fixed;
     width: 100%;
     justify-content: flex-start;
     padding-top: 72px;
-    background-color: #BD8D9A;
+    background-color: #666666;
     transition: all 0.3s ease-in;
     top: 72px;
-    left: ${props => (props.open ? "-100%" : "0")};
+    right: ${props => (props.open ? "-100%" : "0")};
   }
 `
 
@@ -95,6 +101,9 @@ const Navbar = () => {
   return (
     <TopBar>
       <Logowrap />
+      <Socials>
+        <p>Discord icon, etc</p>
+      </Socials>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
