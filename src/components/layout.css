@@ -647,7 +647,7 @@ h1, h2, h3 {
   text-shadow:0px 5px 10px #ff00d0,4px -3px 0px #f1f1f1;
 }
 
-h2, h3, h4, h5, h6 {
+h4, h5, h6 {
   font-family: "PixelUnicode";
 }
 /* such Shib branding, much wow */
