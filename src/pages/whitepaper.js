@@ -8,7 +8,7 @@ const Whitepaper = () => (
   <Layout>
     <Seo title="Whitepaper" />
     <div>
-      <h1>Elrond Shiba v2 - Introducing $WAFL and ShibaWorld</h1>
+      <h1>Elrond Shibas v2 - Introducing $WAFL and ShibaWorld</h1>
       <h2>$WAFL Distribution</h2>
       <p>There is a maximum total supply of 20,000,000 $WAFL</p>
       <ul>
@@ -20,7 +20,6 @@ const Whitepaper = () => (
         <li>When $WAFL is spent in ShibaWorld it is 100% BURNED</li>
       </ul>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

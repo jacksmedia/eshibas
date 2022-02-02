@@ -21,6 +21,7 @@ html {
 }
 body {
   margin: 0;
+  background: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -611,7 +612,7 @@ pre tt:after {
   marginBottom: 1.45rem;
 }
 .footer-styling {
-  background: #333;
+  background: linear-gradient(#666,#BD8D9A);
   padding: 2rem;
   marginTop: 2rem;
 }
@@ -637,7 +638,7 @@ pre tt:after {
 
 * {
   font-family: "PixelUnicode";
-  color: #222;
+  color: #eee;
   font-size: 108%;
 }
 h1, h2, h3 {
@@ -681,24 +682,7 @@ h2, h3, h4, h5, h6 {
 .eshib-bg-11 {
   background: linear-gradient(#010100,#010100);
 }
-.eshib-bg-12 {
-  background: linear-gradient(#,#);
-}
-.eshib-bg-13 {
-  background: linear-gradient(#,#);
-}
-.eshib-bg-14 {
-  background: linear-gradient(#,#);
-}
-.eshib-bg-15 {
-  background: linear-gradient(#,#);
-}
-.eshib-bg-16 {
-  background: linear-gradient(#,#);
-}
-.eshib-bg-17 {
-  background: linear-gradient(#,#);
-}
+
 .unbullet {
   list-style-type: none;
 }

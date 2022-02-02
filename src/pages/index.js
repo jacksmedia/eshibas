@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+import IO from "../components/io"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -34,6 +34,16 @@ const IndexPage = () => (
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-1">
       <h1 className="">shib carousel 1</h1>
+      <StaticImage
+        className="tile"
+        src="../images/mainshib.png"
+        width={275}
+        height={275}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="An Elrond Shiba this one is number 164"
+        style={{ marginBottom: `1.45rem` }}
+      />
     </div>
     <div className="level is-mobile wafl-background act-zone">
       <h1 className="syrup-text">WAFL</h1>

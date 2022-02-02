@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "gatsby"
 
 const NavbarLinks = () => {

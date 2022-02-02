@@ -1,18 +1,11 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
-import PropTypes from "prop-types"
-import '@fortawesome/fontawesome-free/css/all.min.css'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import styled from "styled-components"
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Navbar from './Navbar/Navbar'
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import PropTypes from "prop-types"
+import { useStaticQuery, Link, graphql } from "gatsby"
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import "./layout.css"
 
 const Layout = ({ children }) => {
