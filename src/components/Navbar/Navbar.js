@@ -7,7 +7,7 @@ const TopBar = styled.nav`
   min-height: 72px;
   height: 10vh;
   display: flex;
-  background: linear-gradient(#BD8D9A, #666666);
+  background: linear-gradient(#669F9F, #666666);
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@ const Toggle = styled.div`
 
 const Socials = styled.div`
   height: 100%;
-  width: 200px;
+  width: 38vw;
   background: #666;
 `
 
@@ -54,10 +54,11 @@ const Navtray = styled.div`
   @media (max-width: 9999px) {
     flex-direction: column;
     position: fixed;
-    width: 100%;
+    width: 65%;
     justify-content: flex-start;
     padding-top: 72px;
-    background-color: #666666;
+    background-color: #333333;
+    border: 2px solid #669F9F;
     transition: all 0.3s ease-in;
     top: 72px;
     right: ${props => (props.open ? "-100%" : "0")};

@@ -7,10 +7,12 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Elrond Shibas</h1>
-    <p>Welcome to the NFT era, fren!</p>
-    <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-    <h1>Join us in Shibaworld.</h1>
+    <div className="container pt-2 pl-2">
+      <h1>Elrond Shibas</h1>
+      <p>Welcome to the NFT era, fren!</p>
+      <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
+      <h1>Join us in Shibaworld.</h1>
+    </div>
     <div className="level">
       <StaticImage
         className="tile"
@@ -77,7 +79,9 @@ const IndexPage = () => (
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-4">
       <div className="level is-mobile act-zone">
-        <h1 className="" id="whitepaper">Whitepaper</h1>
+        <h1 className="" id="whitepaper">
+          <Link to="/whitepaper">Whitepaper</Link>
+        </h1>
       </div>
     </div>
     <div className="level is-mobile wafl-background">
@@ -87,8 +91,8 @@ const IndexPage = () => (
     </div>
     <div className="level is-mobile spacer-zone eshib-bg-5">
       <div className="act-zone">
-        <h1 className="">GHOST SHIBS in forest,foraging cherry and carrot</h1>
-        <p>Join us! Adopt a Shiba and get ready for Wave 6 Mint!</p>
+        <h1 className="">Packs of Shibas create FREE SFTs</h1>
+        <p>Join us! Adopt a Shiba or ten and earn a Shiba Garden! <Link to="/whitepaper">Read more about our unique project in the Whitepaper</Link>!</p>
       </div>
     </div>
     <div className="level is-mobile">

@@ -612,7 +612,7 @@ pre tt:after {
   marginBottom: 1.45rem;
 }
 .footer-styling {
-  background: linear-gradient(#666,#BD8D9A);
+  background: linear-gradient(#666,#669F9F);
   padding: 2rem;
   marginTop: 2rem;
 }
@@ -643,7 +643,8 @@ pre tt:after {
 }
 h1, h2, h3 {
   font-family: '04B30';
-  color: navy;
+  font-size: 95%;
+  color: red;
   text-shadow:0px 5px 10px #ff00d0,4px -3px 0px #f1f1f1;
 }
 

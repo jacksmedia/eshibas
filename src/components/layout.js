@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="container">{children}</main>
       <footer className="footer-styling">
         <div class="field">
           <label class="label">Name</label>
