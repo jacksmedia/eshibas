@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Logowrap = () => {
+const WaflToken = () => {
 	return(
 		<div>
 		<Link to="/">
@@ -10,9 +10,9 @@ const Logowrap = () => {
 			className=""
 			layout="fixed"
 			formats={["AUTO", "WEBP", "AVIF"]}
-			src="./logo.png"
-			width={70}
-			height={70}
+			src="../images/wafl.png"
+			width={40}
+			height={40}
 			quality={95}
 			alt="Elrond Shibas love you!"
 			/>
@@ -21,4 +21,4 @@ const Logowrap = () => {
 	)
 	}
 
-	export default Logowrap
+	export default WaflToken

@@ -2,7 +2,6 @@ import * as React from "react"
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Navbar from './Navbar/Navbar'
-import Carousel from './Carousel'
 import PropTypes from "prop-types"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import '@fortawesome/fontawesome-free/css/all.min.css'

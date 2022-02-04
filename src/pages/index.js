@@ -2,6 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+import Carousel from '../components/Carousel'
+import WaflToken from "../components/WaflToken"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
@@ -25,7 +27,10 @@ const IndexPage = () => (
           alt="An Elrond Shiba this one is number 164"
           style={{ marginBottom: `1.45rem` }}
         />
+      <div className="tile">
+        <Carousel />
         <p>shib carousel 1</p>
+      </div>
       </div>
     </div>
     <div className="container wafl-background act-zone">
@@ -52,8 +57,8 @@ const IndexPage = () => (
         alt="An Elrond Shiba this one is number 164"
         style={{ marginBottom: `1.45rem` }}
       />
-      <p className="tile">Another carousel
-      </p>
+      <Carousel />
+      <p className="tile">Another carousel</p>
     </div>
     <div className="container wafl-background">
       <div className="act-zone">
@@ -78,90 +83,10 @@ const IndexPage = () => (
       <h2 className="syrup-text pl-2">weekly on WAFL Wednesday (1430 UTC):</h2>
       <div className="tile">
         <ul className="tile">
-          <li><p className="syrup-text"><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      />1 WAFL per Garden</p></li>
-          <li><p className="syrup-text"><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      />2 WAFL per Farm</p></li>
-          <li><p className="syrup-text"><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      />3 WAFL per Castle</p></li>
-          <li><p className="syrup-text"><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      /><StaticImage
-        src="../images/wafl.png"
-        width={36}
-        height={36}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="WAFL is the Elrond Shiba special loyalty token"
-        style={{ marginBottom: `1.45rem` }}
-      />4 WAFL per Spaceship</p></li>
+          <li><p className="syrup-text"><WaflToken />1 WAFL per Garden</p></li>
+          <li><p className="syrup-text"><WaflToken /><WaflToken />2 WAFL per Farm</p></li>
+          <li><p className="syrup-text"><WaflToken /><WaflToken /><WaflToken />3 WAFL per Castle</p></li>
+          <li><p className="syrup-text"><WaflToken /><WaflToken /><WaflToken /><WaflToken />4 WAFL per Spaceship</p></li>
         </ul>
       </div>
       </div>
@@ -206,7 +131,7 @@ const IndexPage = () => (
         <p>Join us! Adopt a Shiba or ten and earn a Shiba Garden! <Link to="/whitepaper">Read more about our unique project in the Whitepaper</Link>!</p>
       </div>
     </div>
-    <div className="container">
+    <div className="level is-mobile">
       <Link to="/rarity" className="pl-4">Rarity</Link>
       <Link to="/whitepaper" className="">Whitepaper</Link>
       <Link to="/faq" className="pr-4">FAQ</Link>
