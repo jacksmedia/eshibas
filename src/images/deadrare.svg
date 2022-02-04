@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="68px" viewBox="0 0 40 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" stroke="#EEEEEE" stroke-width="2" points="20.1974283 2 1.77722492 20.9541915 1.77722492 46.4409813 20.1974283 66 38.9374399 46.4409813 38.9374399 20.9541915"></polygon>
+        <polygon id="Path-Copy" stroke="#EEEEEE" stroke-width="2" points="19.9225442 19 11 28.1809365 11 40.5261003 19.9225442 50 29 40.5261003 29 28.1809365"></polygon>
+        <path d="M29,39 L38.9374399,46.4409813" id="Path-2" stroke="#EEEEEE" stroke-width="2"></path>
+        <path d="M2,21 L11.5185892,27.6092713" id="Path-2-Copy" stroke="#EEEEEE" stroke-width="2"></path>
+        <path d="M20,3 L20,20" id="Path-2-Copy-2" stroke="#EEEEEE" stroke-width="2"></path>
+        <path d="M20,49 L20,66" id="Path-2-Copy-3" stroke="#EEEEEE" stroke-width="2"></path>
+    </g>
+</svg>

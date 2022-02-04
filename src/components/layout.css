@@ -631,7 +631,7 @@ pre tt:after {
 }
 
 .wafl-background {
-  background: url("../images/wafl.png");
+  background: url("../images/wafl-bg.png");
   background-repeat: repeat;
   background-size: auto;
 }
@@ -639,13 +639,13 @@ pre tt:after {
 * {
   font-family: "PixelUnicode";
   color: #eee;
-  font-size: 108%;
+  font-size: 110%;
 }
 h1, h2, h3 {
   font-family: '04B30';
-  font-size: 95%;
+  font-size: 105%;
   color: red;
-  text-shadow:0px 5px 10px #ff00d0,4px -3px 0px #f1f1f1;
+  text-shadow: -3px 3px 1px black;
 }
 
 h4, h5, h6 {
@@ -654,6 +654,13 @@ h4, h5, h6 {
 /* such Shib branding, much wow */
 .syrup-text {
   color: #674314;
+  text-shadow: -3px 3px 1px white,
+  3px 0px 1px white,
+  0px 3px 1px white,
+  3px -3px 1px white;
+}
+.dark-forest-text {
+  color: #111;
   text-shadow: -3px 3px 1px white,
   3px 0px 1px white,
   0px 3px 1px white,
@@ -692,12 +699,43 @@ h4, h5, h6 {
 .eshib-bg-11 {background: linear-gradient(#C98998,#4C151C);}
 .eshib-bg-12 {background: linear-gradient(#010100,#010100);}
 
+.svg-market-1 {
+  color: white;
+  background-image: url(../images/emoon.svg);
+  width: 33px;
+  height: 33px;
+  background-size: cover;
+}
+.svg-market-2 {
+  color: white;
+  background-image: url(../images/deadrare.svg);
+  width: 22px;
+  height: 36px;
+  background-size: cover;
+}
+
 .tile {
   padding: 1.2rem;
 }
 p {
   padding-left: 1.2rem;
 }
+
+@keyframes glowtext {
+  from {color: red;}
+  to {color: #f0f;}
+}
+@keyframes geez {
+  0% { color: tomato; }
+  40% { color: red; }
+  60% { color: #f0f; }
+  80% { color: red; }
+}
+.yikes {
+  animation: geez 6s ease 0.35s infinite alternate;
+}
+
+
 
 .unbullet {
   list-style-type: none;

@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Slider from "infinite-react-carousel"
 import IO from "../components/io"
+import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Scene = styled.h3`

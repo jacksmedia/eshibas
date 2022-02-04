@@ -1,23 +1,22 @@
 import React from "react"
 import styled from "styled-components"
-import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "gatsby"
 
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/" className="is-hoverable creamsicle-text">Home</NavItem>
-      <NavItem to="/whitepaper" className="is-hoverable creamsicle-text">Whitepaper</NavItem>
-      <NavItem to="/roadmap" className="is-hoverable creamsicle-text">Roadmap</NavItem>
-      <NavItem to="/rarity" className="is-hoverable creamsicle-text">Rarity</NavItem>
-      <NavItem to="/wave6" className="is-hoverable creamsicle-text">Wave 6</NavItem>
+      <NavItem to="/" className="is-hoverable">Home</NavItem>
+      <NavItem to="/whitepaper" className="is-hoverable">Whitepaper</NavItem>
+      <NavItem to="/roadmap" className="is-hoverable">Roadmap</NavItem>
+      <NavItem to="/rarity" className="is-hoverable">Rarity</NavItem>
+      <NavItem to="/wave6" className="is-hoverable">Wave 6</NavItem>
     </>
   )
 }
 
 const NavItem = styled(Link)`
   text-decoration: none;
-  color: #111;
+  color: snow;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -38,7 +37,7 @@ const NavItem = styled(Link)`
   }
 
   :hover {
-    color: snow;
+    color: #f0f;
     ::after {
       width: 100%;
     }

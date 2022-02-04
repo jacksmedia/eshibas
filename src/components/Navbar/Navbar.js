@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
+import SocialLinks from "./SocialLinks"
 import Logowrap from "./Logowrap"
+
 
 const TopBar = styled.nav`
   min-height: 72px;
@@ -43,12 +45,16 @@ const Socials = styled.div`
   height: 100%;
   width: 38vw;
   background: #666;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 `
 
 const Navtray = styled.div`
   display: flex;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
 
   @media (max-width: 9999px) {
@@ -103,7 +109,7 @@ const Navbar = () => {
     <TopBar>
       <Logowrap />
       <Socials>
-        <p>Discord icon, etc</p>
+        <SocialLinks />
       </Socials>
       <Toggle
         navbarOpen={navbarOpen}
