@@ -11,23 +11,23 @@ const SvgBoxFfs = styled.div`
 const SocialLinks = () => {
   return (
     <>
-      <NavItem to="/" className="is-hoverable">
+      <NavItem to="/" className="is-hoverable navicon">
         <i className="fa fa-home"></i>
       </NavItem>
-      <NavItem href="https://discord.gg/ark67RKkrV" className="">
+      <NavItem href="https://discord.gg/ark67RKkrV" className="navicon">
         <i className="fab fa-discord is-hoverable"></i>
       </NavItem>
-      <NavItem href="https://twitter.com/elrondshibas" className="">
+      <NavItem href="https://twitter.com/elrondshibas" className="navicon">
         <i className="fab fa-twitter is-hoverable"></i>
       </NavItem>
-      <NavItem href="https://www.instagram.com/elrondshibas/" className="">
+      <NavItem href="https://www.instagram.com/elrondshibas/" className="navicon">
         <i className="fab fa-instagram is-hoverable"></i>
       </NavItem>
       <NavItem href="https://emoon.space/collection/SHIB-50039b" className="is-hoverable">
-         <div className="svg-market-1"></div>
+         <div className="svg-market-1 navicon"></div>
       </NavItem>
       <NavItem href="https://deadrare.io/collection/SHIB-50039b" className="is-hoverable">
-         <div className="svg-market-2"></div>
+         <div className="svg-market-2 navicon"></div>
       </NavItem>
     </>
   )

@@ -44,7 +44,6 @@ const Toggle = styled.div`
 const Socials = styled.div`
   height: 100%;
   width: 38vw;
-  background: #666;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;

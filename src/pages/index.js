@@ -13,7 +13,7 @@ const IndexPage = () => (
       <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
       <h1>Join us in Shibaworld.</h1>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-1">
+    <div className="container spacer-zone eshib-bg-1">
       <h1 className="tile dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
       <div className="tile">
         <StaticImage
@@ -28,7 +28,7 @@ const IndexPage = () => (
         <p>shib carousel 1</p>
       </div>
     </div>
-    <div className="level is-mobile wafl-background act-zone">
+    <div className="container wafl-background act-zone">
        <StaticImage
         className="tile ml-5"
         src="../images/wafl.png"
@@ -39,7 +39,7 @@ const IndexPage = () => (
         alt="An Elrond Shiba this one is number 164"
         style={{ marginBottom: `1.45rem` }}
       />
-      <h1 className="syrup-text ml-3">WAFL is the Token Elrond Shiabas earn you!</h1>
+      <h1 className="syrup-text ml-3">WAFL is the Token Elrond Shibas earn you!</h1>
     </div>
     <div className="">
       <StaticImage
@@ -55,8 +55,8 @@ const IndexPage = () => (
       <p className="tile">Another carousel
       </p>
     </div>
-    <div className="level is-mobile wafl-background">
-      <div className="level is-mobile act-zone">
+    <div className="container wafl-background">
+      <div className="act-zone">
         <h1 className="syrup-text tile">Elrond Shibas bring you 2 rewards!!</h1>
         <div className="tile">
           <h2 className="syrup-text">1 WAFL per Shib per week on WAFL Wednesday (1430 UTC)</h2>
@@ -64,7 +64,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-2">
+    <div className="container spacer-zone eshib-bg-2">
       <div className="act-zone">
         <h1 className="tile" id="roadmap">Roadmap to Shibaworld</h1>
         <h2 className="tile" id="roadmap">red e.shibs at seaside</h2>
@@ -166,14 +166,14 @@ const IndexPage = () => (
       </div>
       </div>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-3" id="rarity">
-      <div className="level is-mobile act-zone">
+    <div className="container spacer-zone eshib-bg-3" id="rarity">
+      <div className="act-zone">
         <h1 className="">Rarity</h1>
         <h1 className="">shib carousel 2</h1>
       </div>
     </div>
-    <div className="level is-mobile wafl-background">
-      <div className="level act-zone">
+    <div className="container wafl-background">
+      <div className="act-zone">
         <h1 className="syrup-text">Earn WAFL from HODLing SFTs! ⛲️🚜🏯🚀</h1>
         <StaticImage
           src="../images/wafl.png"
@@ -188,25 +188,25 @@ const IndexPage = () => (
         <h3 className="syrup-text">Read More in Whitepaper!</h3>
       </div>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-4">
-      <div className="level is-mobile act-zone">
+    <div className="container spacer-zone eshib-bg-4">
+      <div className="act-zone">
         <h1 className="" id="whitepaper">
           <Link to="/whitepaper">Whitepaper</Link>
         </h1>
       </div>
     </div>
-    <div className="level is-mobile wafl-background">
-      <div className="level is-mobile act-zone">
+    <div className="container wafl-background">
+      <div className="act-zone">
         <h1 className="syrup-text">WAFL can buy Rare Shibaworld NFTs like AniShib and 3DShib</h1>
       </div>
     </div>
-    <div className="level is-mobile spacer-zone eshib-bg-5">
+    <div className="container spacer-zone eshib-bg-5">
       <div className="act-zone">
         <h1 className="mt-5 ml-5">Packs of Shibas create FREE SFTs</h1>
         <p>Join us! Adopt a Shiba or ten and earn a Shiba Garden! <Link to="/whitepaper">Read more about our unique project in the Whitepaper</Link>!</p>
       </div>
     </div>
-    <div className="level is-mobile">
+    <div className="container">
       <Link to="/rarity" className="pl-4">Rarity</Link>
       <Link to="/whitepaper" className="">Whitepaper</Link>
       <Link to="/faq" className="pr-4">FAQ</Link>

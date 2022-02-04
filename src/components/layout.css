@@ -702,15 +702,15 @@ h4, h5, h6 {
 .svg-market-1 {
   color: white;
   background-image: url(../images/emoon.svg);
-  width: 33px;
-  height: 33px;
+  width: 27px;
+  height: 27px;
   background-size: cover;
 }
 .svg-market-2 {
   color: white;
   background-image: url(../images/deadrare.svg);
-  width: 22px;
-  height: 36px;
+  width: 18px;
+  height: 30px;
   background-size: cover;
 }
 
@@ -735,7 +735,9 @@ p {
   animation: geez 6s ease 0.35s infinite alternate;
 }
 
-
+.navicon {
+  font-size: 0.9em;
+}
 
 .unbullet {
   list-style-type: none;
