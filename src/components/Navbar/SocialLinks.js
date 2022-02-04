@@ -1,12 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-const SvgBoxFfs = styled.div`
-  width: 33px;
-  height: 33px;
-`
 
 const SocialLinks = () => {
   return (
@@ -23,7 +17,7 @@ const SocialLinks = () => {
       <NavItem href="https://www.instagram.com/elrondshibas/" className="navicon">
         <i className="fab fa-instagram is-hoverable"></i>
       </NavItem>
-      <NavItem href="https://emoon.space/collection/SHIB-50039b" className="is-hoverable">
+      <NavItem href="https://trust.market/collection/SHIB-50039b" className="is-hoverable">
          <div className="svg-market-1 navicon"></div>
       </NavItem>
       <NavItem href="https://deadrare.io/collection/SHIB-50039b" className="is-hoverable">

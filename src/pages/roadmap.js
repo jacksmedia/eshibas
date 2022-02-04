@@ -7,7 +7,13 @@ const Roadmap = () => (
   <Layout>
     <Seo title="Roadmap to Shibaworld" />
     <div className="pl-2 pt-2">
-      <h1>Elrond Shiba Roadmap</h1>
+      <h1>Elrond Shiba CDO/DAO Roadmap</h1>
+      <ul>
+        <li><h1>💰100% Mint -> Community Wallet until Collection Sold Out!</h1></li>
+        <li><h1>💰25% Mint -> Community Wallet</h1></li>
+        <li><h1>💰75% Royalties -> Community Wallet</h1></li>
+        <li><h1>💰Weekly LKMex to NFT Holders Every Saturday!</h1></li>      
+      </ul>
       <div className="timeline">
         <header className="timeline-header">
           <span className="tag is-medium is-primary">Elrond Shiba Roadmap</span>
@@ -22,11 +28,12 @@ const Roadmap = () => (
           </div>
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <p className="heading">SFT Awards by Tier</p>
-            <p>Every 28 Days you will get 1 Garden/Castle/Spaceship</p>
-            <p>10 Shiba => Garden</p>
-            <p>25 Shiba => Castle</p>
-            <p>50 Shiba => Spaceship</p>
+            <p className="heading">SFT Awards by Tier </p>
+            <p>Every 28 Days you will get a Garden/Farm/Castle/Spaceship</p>
+            <p>5 Shiba yield 1 Garden</p>
+            <p>10 Shiba yield 1 Farm</p>
+            <p>25 Shiba yield 1 Castle</p>
+            <p>50 Shiba yield 1 Spaceship</p>
             <p>Each Garden/Castle/Spaceship earns WAFL!</p>
             <p>After 28 days more you will get another garden! Continues until garden supply exhausted.</p>
           </div>

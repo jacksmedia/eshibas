@@ -14,6 +14,10 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/src/images`, // wherever background images are stored
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
