@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import Carousel from '../components/Carousel'
 import WaflToken from "../components/WaflToken"
 import Seo from "../components/seo"
 
@@ -28,7 +27,6 @@ const IndexPage = () => (
           style={{ marginBottom: `1.45rem` }}
         />
       <div className="tile">
-        <Carousel />
         <p>shib carousel 1</p>
       </div>
       </div>
@@ -57,7 +55,6 @@ const IndexPage = () => (
         alt="An Elrond Shiba this one is number 164"
         style={{ marginBottom: `1.45rem` }}
       />
-      <Carousel />
       <p className="tile">Another carousel</p>
     </div>
     <div className="container wafl-background">
