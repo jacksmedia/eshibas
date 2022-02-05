@@ -699,6 +699,59 @@ h4, h5, h6 {
 .eshib-bg-11 {background: linear-gradient(#C98998,#4C151C);}
 .eshib-bg-12 {background: linear-gradient(#010100,#010100);}
 
+/* slides  */
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  height: 314px;
+}
+.images01 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/slide1.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 13s linear infinite;
+}
+.images02 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/slide2.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 13s linear infinite;
+}
+.images03 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/slide3.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 13s linear infinite;
+}
+.images04 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/slide4.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 13s linear infinite;
+}
+
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
+
+
 .svg-market-1 {
   color: white;
   background-image: url(../images/trustmarket.svg);

@@ -10,13 +10,16 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className="container is-fluid pt-2 pl-2">
       <h1 className="yikes">Elrond Shibas</h1>
+      <div class="slideshow level is-mobile"><div class="images01"></div></div>
+      <div class="slideshow level is-mobile"><div class="images02"></div></div>
       <p className="">Welcome to the NFT era, fren!</p>
       <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
       <h1>Join us in Shibaworld.</h1>
     </div>
     <div className="container is-fluid spacer-zone eshib-bg-1">
-      <h1 className="tile dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
+      <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
     </div>
+    <div class="slideshow level is-mobile"><div class="images03"></div></div>
     <p>The entire collection comprises 5000 NTFs and 7777 SFTs.</p>
     <div className="container is-fluid wafl-background act-zone">
        <StaticImage
