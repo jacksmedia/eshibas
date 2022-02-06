@@ -3,12 +3,23 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Whitepaper = () => (
   <Layout>
     <Seo title="Whitepaper" />
     <div className="pl-2 pt-2">
       <h1>Elrond Shibas v2 - Introducing $WAFL and ShibaWorld</h1>
+      <StaticImage
+          className="tile"
+          src="../images/shibawave.png"
+          width={275}
+          height={275}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="Waves of Elrond Shibas"
+          style={{ marginBottom: `1.45rem` }}
+       />
       <p>$WAFL Distribution</p>
       <h2>There is a maximum total supply of 20,000,000 $WAFL</h2>
       <ul>

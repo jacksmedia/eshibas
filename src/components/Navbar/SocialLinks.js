@@ -5,9 +5,6 @@ import { Link } from "gatsby"
 const SocialLinks = () => {
   return (
     <>
-      <NavItem to="/" className="is-hoverable navicon">
-        <i className="fa fa-home"></i>
-      </NavItem>
       <NavItem href="https://discord.gg/ark67RKkrV" className="navicon">
         <i className="fab fa-discord is-hoverable"></i>
       </NavItem>

@@ -627,7 +627,8 @@ pre tt:after {
 .spacer-zone {
   min-height: 110vh;
   height: 110vh;
-  background-color: #eee;
+  background-color: #555;
+  background-attachment: scroll;
 }
 
 .wafl-background {
@@ -670,26 +671,43 @@ h4, h5, h6 {
   background: url("../images/bg-piney.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-attachment: fixed;
 }
 .eshib-bg-2 {
   background: url("../images/bg-tanesashi.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-attachment: fixed;
 }
 .eshib-bg-3 {
   background: url("../images/bg-boaty.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-attachment: fixed;
 }
 .eshib-bg-4 {
   background: url("../images/bg-cloudy.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-attachment: fixed;
 }
 .eshib-bg-5 {
   background: url("../images/bg-ghosty.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-attachment: fixed;
+}
+.eshib-bg-21 {
+  background: url("../images/lkmex.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+.eshib-bg-22 {
+  background: url("../images/shibawave.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-attachment: fixed;
 }
 .eshib-bg-6 {background: radial-gradient(#AAA19A,#73665B);}
 .eshib-bg-7 {background: linear-gradient(#AFCACF,#FE825A);}
@@ -783,13 +801,21 @@ p {
   40% { color: red; }
   60% { color: #f0f; }
   80% { color: red; }
+  100% { color: white }
 }
 .yikes {
   animation: geez 6s ease 0.35s infinite alternate;
 }
-
+strong  {
+  animation: geez 2s ease 0.35s infinite alternate;
+}
+.hero-size-text {
+  font-size: 3.3rem;
+  text-align: center;
+  color: snow;
+}
 .navicon {
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .unbullet {
@@ -799,7 +825,7 @@ a {
   color: white;
 }
 a:hover {
-  color: #f0f;
+  animation: geez 0.5s ease 0.15s infinite alternate;
 }
 @media only screen and (max-width: 480px) {
   html {
