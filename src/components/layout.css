@@ -626,7 +626,7 @@ pre tt:after {
 }
 .spacer-zone {
   min-height: 110vh;
-  height: 110vh;
+  height: 90vh;
   background-color: #555;
   background-attachment: scroll;
 }
@@ -769,6 +769,15 @@ h4, h5, h6 {
   100%  { left: -200%; }
 }
 
+.shibutton {
+  padding: 1rem;
+  background-color: #333;
+  color: snow;
+}
+.shibutton:hover {
+  color: red;
+  background-color: #555;
+}
 
 .svg-market-1 {
   color: white;
@@ -783,6 +792,10 @@ h4, h5, h6 {
   width: 18px;
   height: 30px;
   background-size: cover;
+}
+
+.gray {
+  background-color: #3338;
 }
 
 .tile {
