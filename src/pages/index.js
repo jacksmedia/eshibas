@@ -14,10 +14,58 @@ const IndexPage = () => (
       <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
       <h1>Join us in Shibaworld.</h1>
       <div className="columns">
-        <div className="column gray">1</div>
-        <div className="column gray">2</div>
-        <div className="column gray">3</div>
-        <div className="column gray">4</div>
+        <div className="column gray">
+          <StaticImage
+            className=""
+            layout="fixed"
+            formats={["AUTO", "WEBP", "AVIF"]}
+            src="../images/es164.png"
+            width={70}
+            height={70}
+            quality={95}
+            alt="Elrond Shibas love you!"
+          />  
+          <p>Cute pfp</p>
+        </div>
+        <div className="column gray">
+           <StaticImage
+            className=""
+            layout="fixed"
+            formats={["AUTO", "WEBP", "AVIF"]}
+            src="../images/es511.png"
+            width={70}
+            height={70}
+            quality={95}
+            alt="Elrond Shibas love you!"
+          />
+          <p>Earns LKMEX on Saturdays!</p>
+        </div>
+        <div className="column gray">
+           <StaticImage
+            className=""
+            layout="fixed"
+            formats={["AUTO", "WEBP", "AVIF"]}
+            src="../images/es720.png"
+            width={70}
+            height={70}
+            quality={95}
+            alt="Elrond Shibas love you!"
+          />
+          <p>Earns $WAFL on Wednesdays!</p>
+        </div>
+        <div className="column gray">
+           <StaticImage
+            className=""
+            layout="fixed"
+            formats={["AUTO", "WEBP", "AVIF"]}
+            src="../images/es884.png"
+            width={70}
+            height={70}
+            quality={95}
+            alt="Elrond Shibas love you!"
+          />
+          <p>Your ticket to SHIBAWORLD & SFTs</p>
+        </div>
       </div>
     </div>
 
