@@ -121,7 +121,7 @@ const IndexPage = () => (
         <div className="column ">
           <h2 className="whyt">Elrond Shibas pay you LKMEX</h2>
           <p>Stake your LKMEX on Maiar Exchange or spend it on NFTs!</p>
-          <a href="https://mint.elrondshibas.com" className="button">BUY NOW</a>
+          <a href="https://deadrare.io/collection/SHIB-50039b" className="button">BUY NOW</a>
           <StaticImage
             className=""
             layout="fixed"
@@ -161,7 +161,7 @@ const IndexPage = () => (
           <h2>WAFL tokens</h2>
           <h2>Shiba love WAFL</h2>
           <p>Every day each Shiba earns you a $WAFL token! Packs of Shibs will earn you free SFTs like Shiba Gardens and Shiba Farms!</p>
-          <a href="https://discord.gg/ark67RKkrV" className="button">BUY NOW</a>
+          <a href="https://trust.market/collection/SHIB-50039b" className="button">BUY NOW</a>
         </div>
         <div className="column gray is-hidden-mobile"><BigWafl /></div>
       </div>

@@ -27,12 +27,6 @@ const Layout = ({ children }) => {
         <Link to="/whitepaper" className="">Whitepaper</Link>
       </div>
       <footer className="footer-styling">
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Sign up for Shiba details" />
-          </div>
-        </div>
         <p className="white-txt">
           MADE WITH LOVE BY ELROND SHIBAS
         </p>

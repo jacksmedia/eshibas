@@ -858,17 +858,6 @@ h4, h5, h6 {
   0%    { top: 0; }
   100%  { top: -200%; }
 }
-
-.shibutton {
-  padding: 1rem;
-  background-color: #333;
-  color: snow;
-}
-.shibutton:hover {
-  color: red;
-  background-color: #555;
-}
-
 .svg-market-1 {
   color: white;
   background-image: url(../images/trustmarket.svg);
@@ -909,6 +898,11 @@ p {
 .button {
   margin: 1.5vw;
   background: ivory;
+  font-size: 110%;
+  border-radius: 3rem;
+}
+.button:hover {
+  background-color: #555;
 }
 strong  {
   animation: geez 2s ease 0.35s infinite alternate;

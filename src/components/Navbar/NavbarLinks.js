@@ -9,7 +9,7 @@ const NavbarLinks = () => {
       <NavItem to="/whitepaper" className="is-hoverable">Whitepaper</NavItem>
       <NavItem to="/roadmap" className="is-hoverable">Roadmap</NavItem>
       <NavItem to="/rarity" className="is-hoverable">Rarity</NavItem>
-      <NavItem to="/wave6" className="is-hoverable">Wave 6</NavItem>
+      <NavItem to="/wave7" className="is-hoverable">Wave 7 Info</NavItem>
       <NavItem to="/start-your-own-nft" className="is-hoverable">Start Your Own NFT!</NavItem>
     </>
   )

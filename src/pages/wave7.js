@@ -5,26 +5,25 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
 
-const Wave6 = () => (
+const Wave7 = () => (
   <Layout className="wave6-colors">
-    <Seo title="Wave 6" className="level is-mobile"/>
+    <Seo title="Wave 7" className="level is-mobile"/>
      <StaticImage
         className="tile"
-        src="../images/wave6-banner.png"
+        src="../images/wave7-banner.png"
         width={1500}
         height={500}
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt="Wave 6 of 1000 Shibas minting Februrary 7th 2022"
+        alt="Wave 7 of 5000 Shibas minting Februrary 2022"
         style={{ marginBottom: `1.45rem` }}
       />    
     <div className="pl-2 pt-2">
-      <h1 className="yikes">Wave 6 Minting NOW</h1>
-      <h2>300 Shibas!</h2>
-      <h3>0.8 EGLD</h3>
-        <strong><a href="https://mint.elrondshibas.com/"><br/>CLICK HERE TO WAFL WITH US</a></strong>
+      <h1 className="yikes">Wave 7 Minting Soon</h1>
+      <p className="yikes">Date and Price TBD</p>
+        <strong><a href="https://mint.elrondshibas.com/"></a></strong>
     </div>
   </Layout>
 )
 
-export default Wave6
+export default Wave7
