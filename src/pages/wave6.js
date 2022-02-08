@@ -19,12 +19,10 @@ const Wave6 = () => (
         style={{ marginBottom: `1.45rem` }}
       />    
     <div className="pl-2 pt-2">
-      <h1>Wave 6 Minting 2/7/22</h1>
-      <h2>1000 Shibas!</h2>
+      <h1 className="yikes">Wave 6 Minting NOW</h1>
+      <h2>300 Shibas!</h2>
       <h3>0.8 EGLD</h3>
-      <p>At UTC 1400
-        <strong><a href="https://mint.elrondshibas.com/"><br/>CLICK HERE</a></strong>
-      </p>
+        <strong><a href="https://mint.elrondshibas.com/"><br/>CLICK HERE TO WAFL WITH US</a></strong>
     </div>
   </Layout>
 )

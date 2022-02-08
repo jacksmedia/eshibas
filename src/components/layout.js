@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <Navbar />
       <main className="container">{children}</main>
       <div className="level is-mobile m-5">
-        <Link to="/rarity" className="pl-4">Rarity</Link>
+        <a href="https://discord.gg/ark67RKkrV" className="pl-4">Join Discord</a>
         <Link to="/wave6" className="pr-4">Wave 6 of 10</Link>
         <Link to="/whitepaper" className="">Whitepaper</Link>
       </div>

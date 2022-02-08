@@ -626,8 +626,8 @@ pre tt:after {
 }
 .spacer-zone {
   min-height: 90vh;
-  height: 90vh;
-  background-color: #555;
+  height: 60vh;
+  background: linear-gradient(#5553,#5556,#555f,#5556,#5553);
   background-attachment: scroll;
 }
 
@@ -667,7 +667,8 @@ h4, h5, h6 {
 }
 
 .syrup-text {
-  color: #674314;
+  color: #784314;
+  font-size: 155%;
   text-shadow: -3px 3px 1px white,
   3px 0px 1px white,
   0px 3px 1px white,
@@ -736,17 +737,62 @@ h4, h5, h6 {
 .eshib-bg-13 {background: linear-gradient(#65A09D,#3C3232);}
 
 /* slides  */
-.slideshow {
-  position: relative;
-  overflow: hidden;
-  height: 314px;
-}
 .slideshow2 {
   position: relative;
   overflow: hidden;
   height: 68vh;
 }
 .images-1 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/doges1.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 104px;
+  animation: slideshow2 73s linear infinite;
+}
+.images-2 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/doges2.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 104px;
+  animation: slideshow2 73s linear infinite;
+}
+.images-3 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/doges3.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 104px;
+  animation: slideshow2 73s linear infinite;
+}
+.images-4 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/doges4.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 104px;
+  animation: slideshow2 73s linear infinite;
+}
+.images-5 {
+  transform: translate3d(0, 0, 0);
+  background: url(../images/doges5.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 104px;
+  animation: slideshow2 73s linear infinite;
+}
+.images-6 {
   transform: translate3d(0, 0, 0);
   background: url(../images/doges-ghosty.png);
   position: absolute;
@@ -755,6 +801,13 @@ h4, h5, h6 {
   height: 300%;
   width: 206px;
   animation: slideshow2 73s linear infinite;
+}
+
+/* horiz slides */
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  height: 314px;
 }
 .images01 {
   transform: translate3d(0, 0, 0);
@@ -853,8 +906,15 @@ p {
 .yikes {
   animation: geez 6s ease 0.35s infinite alternate;
 }
+.button {
+  margin: 1.5vw;
+  background: ivory;
+}
 strong  {
   animation: geez 2s ease 0.35s infinite alternate;
+}
+.smoltext {
+  font-size: 65%;
 }
 .hero-size-text {
   font-size: 3.3rem;

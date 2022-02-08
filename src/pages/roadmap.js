@@ -8,13 +8,15 @@ const Roadmap = () => (
     <Seo title="Roadmap to Shibaworld" />
     <div className="pl-2 pt-2 container pt-3 pl-3 is-fluid eshib-bg-13">
       <h1 className="">Roadmap</h1>
-      <div className="roady act-zone center p-3">
+      <div className="roady act-zone center p-5">
         <div className="mapper">Mint ANISHIB NFT collection</div>
         <div className="mapper">WAFL tokens used in collabs/fusions with other NFT collections</div>
         <div className="mapper">Mint 3DSHIB NFT collection</div>
         <div className="mapper">Gateway to ShibaWorld metaverse opens</div>
         <div className="mapper">Upcoming Elrond Shiba Merch Store, funded by royalties</div>
         <div className="mapper">$WAFL registered as Tradeable Asset (SEC, other regulations)</div>
+      </div>
+      <div className="spacer-zone">
       </div>
       <div className="container pt-3 pl-3 is-fluid">
         <h2>Historical Progress</h2>
