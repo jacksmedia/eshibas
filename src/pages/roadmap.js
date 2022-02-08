@@ -27,11 +27,11 @@ const Roadmap = () => (
       <div className="container pt-3 pl-3 is-fluid">
       <h2>Upcoming Waves</h2>
         <ul>
-          <li>Wave 6, 0.8 EGLD, 500 Shibas</li>
+          <li><strong>Current Wave 6</strong>, 0.8 EGLD, 300 Shibas</li>
           <li>50 EGLD Sweepstakes - for all Discord Members - No Purchase Necessary (20 Winners)</li>
-          <li>Wave 7, ??? EGLD. ??? Shibas</li>
+          <li><strong>Wave 7</strong>, ??? EGLD. ??? Shibas</li>
           <li>75 EGLD weepstakes - for all Discord Members - No Purchase Necessary (20 Winners)</li>
-          <li>Wave 8,  ??? EGLD, remaining of 5000 Shibas</li> 
+          <li><strong>Wave 8</strong>,  ??? EGLD, remaining of 5000 Shibas</li> 
           <li>100 EGLD Sweepstakes - for all Discord Members - No Purchase Necessary (20 Winners)</li>
         </ul>  
       </div>
