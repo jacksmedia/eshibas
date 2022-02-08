@@ -738,7 +738,7 @@ h4, h5, h6 {
 .slideshow2 {
   position: relative;
   overflow: hidden;
-  height: 70vh;
+  height: 68vh;
 }
 .images-1 {
   transform: translate3d(0, 0, 0);

@@ -157,11 +157,11 @@ const IndexPage = () => (
     <div className="section spacer-zone eshib-bg-5">
       <div className="columns">
         <div className="column">
-          <h1 className="dark-forest-text">Ghostly Shibs exist, too!</h1>
+          <h1 className="dark-forest-text">Ghostly Shibs also exist</h1>
           <h2 className="dark-forest-text">They all pay LKMEX and WAFL</h2>
           <h2 className="dark-forest-text">Ghosts need homes, too!</h2>
         </div>
-        <div className="slideshow2 column">
+        <div className="slideshow2 column is-two-thirds is-mobile">
           <div className="images-1"></div>
         </div>
       </div>

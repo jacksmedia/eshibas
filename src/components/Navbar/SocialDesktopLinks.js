@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const SocialDesktopLinks = () => {
   return (
-    <div className="is-hidden-mobile">
+    <div className="is-hidden-touch">
       <NavItem href="https://discord.gg/ark67RKkrV" className="is-hoverable">
         <div className="desky-links">Discord</div>
       </NavItem>
