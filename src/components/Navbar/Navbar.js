@@ -21,9 +21,9 @@ const TopBar = styled.nav`
   z-index: 2;
   align-self: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     position: sticky;
-    height: 8vh;
+    height: 6vh;
     top: 0;
     left: 0;
     right: 0;

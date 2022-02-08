@@ -109,15 +109,15 @@ const IndexPage = () => (
     <div className="section spacer-zone eshib-bg-7">
        <div className="columns">
         <div className="column gray">
-          <h2>Maiar Exchange LKMEX</h2>
-          <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
+          <h2>Elrond Shibas pay you LKMEX</h2>
+          <p>Stake your LKMEX on Maiar Exchange or spend it on NFTs!</p>
           <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
     </div>
     <div className="section spacer-zone eshib-bg-21">
-      <h1 className="dark-forest-text">Stake your LKMEX or spend it on NFTs! Every Saturady at 1400 UTC your Shibas will bring you more! #ShibaSaturday </h1>
+      <h1 className="dark-forest-text">Every Saturday at 1400 UTC your Shibas will bring you more! #ShibaSaturday </h1>
       <div className="slideshow level is-mobile">
         <div className="images01"></div>
       </div>
@@ -147,9 +147,10 @@ const IndexPage = () => (
        <div className="columns">
         <div className="column gray">
           <h2>ShibaWorld Awaits</h2>
-          <h2>AniShib & 3D Shib</h2>
-          <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-          <button className="shibutton">BUY NOW</button>
+          <p>AniShib and 3DShib collections dropping soon.</p>
+          <p>These special collections will serve as keys to ShibaWorld! Each collection can be purchased with WAFL or EGLD!</p>
+          <h1>Coming Soon</h1>
+          <button className="shibutton">DISCORD</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>

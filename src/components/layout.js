@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       <main className="container">{children}</main>
       <div className="level is-mobile m-5">
         <Link to="/rarity" className="pl-4">Rarity</Link>
-        <Link to="/wave6" className="pr-4">Wave 6 of 10<br />2/7/2022 UTC1400</Link>
+        <Link to="/wave6" className="pr-4">Wave 6 of 10</Link>
         <Link to="/whitepaper" className="">Whitepaper</Link>
       </div>
       <footer className="footer-styling">

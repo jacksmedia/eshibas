@@ -710,6 +710,15 @@ h4, h5, h6 {
   background-size: 100vw;
   background-attachment: fixed;
 }
+.eshib-bg-15 {
+  background: url("../images/bg-leafygate.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+.window-pic {
+  min-height: 405vh;
+}
 .eshib-bg-21 {
   background: url("../images/lkmex.jpg");
   background-repeat: no-repeat;
@@ -820,8 +829,8 @@ h4, h5, h6 {
 .svg-market-2 {
   color: white;
   background-image: url(../images/deadrare.svg);
-  width: 18px;
-  height: 30px;
+  width: 12px;
+  height: 20px;
   background-size: cover;
 }
 
@@ -858,7 +867,6 @@ strong  {
 .navicon {
   font-size: 0.7em;
 }
-
 .unbullet {
   list-style-type: none;
 }

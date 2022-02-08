@@ -4,9 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const WaflToken = () => {
 	return(
-		<div>
-		<Link to="/">
-			<StaticImage
+		<StaticImage
 			className=""
 			layout="fixed"
 			formats={["AUTO", "WEBP", "AVIF"]}
@@ -15,9 +13,7 @@ const WaflToken = () => {
 			height={40}
 			quality={95}
 			alt="Elrond Shibas love you!"
-			/>
-		</Link>
-		</div>
+		/>
 	)
 	}
 
