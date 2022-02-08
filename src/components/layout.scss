@@ -869,6 +869,7 @@ strong  {
 }
 .table {
   background-color: #0000;
+  max-width: 95vw;
 }
 .roady {
   min-width: 300px;
@@ -939,6 +940,9 @@ a {
 }
 a:hover {
   animation: geez 0.5s ease 0.15s infinite alternate;
+}
+.whyt {
+  color: snow;
 }
 @media only screen and (max-width: 480px) {
   html {

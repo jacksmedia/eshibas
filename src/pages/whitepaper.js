@@ -10,8 +10,8 @@ const Whitepaper = () => (
     <Seo title="Whitepaper" />
     <div className="pl-2 pt-2">
       <div className="container is-fluid eshib-bg-15">
-        <h1>Elrond Shibas v2</h1>
-        <h1>Introducing $WAFL and ShibaWorld</h1>
+        <h1 className="whyt">Elrond Shibas v2</h1>
+        <h1>Introducing WAFL token and <h1 className="whyt">ShibaWorld</h1></h1>
       </div>
        <div className="level columns is-mobile">
         <div className="column"><WaflToken /></div>
@@ -65,41 +65,41 @@ const Whitepaper = () => (
           <thead>
             <tr>
               <th></th>
-              <th>Launch</th>
-              <th>Month 1</th>
-              <th>Month 2</th>
-              <th>Month 3</th>
+              <th>Launch<br/>2/2/2022</th>
+              <th>4 wks<br/>3/2/2022</th>
+              <th>8 wks<br/>3/30/2022</th>
+              <th>12 wks<br/>4/27/2022</th>
             </tr>
           </thead>
           <tbody>
-             <tr>
-                <td>SHIB-50039b NFT in Circulation</td>
-                <td>1400</td>
-                <td>2300</td>
-                <td>3200</td>
-                <td>5000</td>
-              </tr>
-             <tr>
-                <td>Shiba Gardens in Circulation</td>
-                <td>0</td>
-                <td>50</td>
-                <td>140</td>
-                <td>360</td>
-              </tr>
-             <tr>
-                <td>Shiba Farms in Circulation</td>
-                <td>0</td>
-                <td>30</td>
-                <td>72</td>
-                <td>185</td>
-              </tr>
-             <tr>
-                <td>Shiba Castles in Circulation</td>
-                <td>0</td>
-                <td>10</td>
-                <td>24</td>
-                <td>60</td>
-              </tr>
+           <tr>
+              <td>SHIB-50039b NFT in Circulation</td>
+              <td>1400</td>
+              <td>2300</td>
+              <td>3200</td>
+              <td>5000</td>
+            </tr>
+           <tr>
+              <td>Shiba Gardens in Circulation</td>
+              <td>0</td>
+              <td>50</td>
+              <td>140</td>
+              <td>360</td>
+            </tr>
+           <tr>
+              <td>Shiba Farms in Circulation</td>
+              <td>0</td>
+              <td>30</td>
+              <td>72</td>
+              <td>185</td>
+            </tr>
+           <tr>
+              <td>Shiba Castles in Circulation</td>
+              <td>0</td>
+              <td>10</td>
+              <td>24</td>
+              <td>60</td>
+            </tr>
              <tr>
                 <td>Shiba Spaceships in Circulation</td>
                 <td>0</td>
@@ -108,12 +108,12 @@ const Whitepaper = () => (
                 <td>10</td>
               </tr>
              <tr>
-                <td>SHIBWRLD SFTs Minted</td>
-                <td>0</td>
-                <td>92</td>
-                <td>333</td>
-                <td>948</td>
-              </tr>
+              <td>SHIBWRLD SFTs Minted</td>
+              <td>0</td>
+              <td>92</td>
+              <td>333</td>
+              <td>948</td>
+            </tr>
           </tbody>
         </table>
       </div>

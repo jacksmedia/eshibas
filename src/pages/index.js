@@ -10,11 +10,9 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className="section pt-2 pl-2 eshib-bg-2">
       <h1 className="hero-size-text">Elrond Shibas</h1>
-      <p className="">Welcome to the NFT era, fren!</p>
       <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-      <h1>Join us in Shibaworld.</h1>
       <div className="columns level">
-        <div className="column gray">
+        <div className="column gray"><a href="">
           <StaticImage
             className=""
             layout="fixed"
@@ -25,9 +23,9 @@ const IndexPage = () => (
             quality={95}
             alt="Elrond Shibas love you!"
           />  
-          <p>Cute pfp</p>
+          <p>Cute pfp</p></a>
         </div>
-        <div className="column gray">
+        <div className="column gray"><a href="#lkmex">
            <StaticImage
             className=""
             layout="fixed"
@@ -38,9 +36,9 @@ const IndexPage = () => (
             quality={95}
             alt="Elrond Shibas love you!"
           />
-          <p>Earns LKMEX on Saturdays!</p>
+          <p>Earns LKMEX on Saturdays!</p></a>
         </div>
-        <div className="column gray">
+        <div className="column gray"><a href="#wafl">
            <StaticImage
             className=""
             layout="fixed"
@@ -51,9 +49,9 @@ const IndexPage = () => (
             quality={95}
             alt="Elrond Shibas love you!"
           />
-          <p>Earns $WAFL on Wednesdays!</p>
+          <p>Earns $WAFL on Wednesdays!</p></a>
         </div>
-        <div className="column gray">
+        <div className="column gray"><a href="#ShibaWorld">
            <StaticImage
             className=""
             layout="fixed"
@@ -64,7 +62,7 @@ const IndexPage = () => (
             quality={95}
             alt="Elrond Shibas love you!"
           />
-          <p>Your ticket to SHIBAWORLD & SFTs</p>
+          <p>Your ticket to SHIBAWORLD & SFTs</p></a>
         </div>
       </div>
     </div>
@@ -107,7 +105,7 @@ const IndexPage = () => (
 
 
     <div className="section spacer-zone eshib-bg-7">
-       <div className="columns">
+       <div className="columns" id="lkmex">
         <div className="column gray">
           <h2>Elrond Shibas pay you LKMEX</h2>
           <p>Stake your LKMEX on Maiar Exchange or spend it on NFTs!</p>
@@ -125,7 +123,7 @@ const IndexPage = () => (
 
 
     <div className="section spacer-zone">
-       <div className="columns">
+       <div className="columns" id="wafl">
         <div className="column gray">
           <h2>WAFL tokens</h2>
           <h2>Shiba love WAFL</h2>
@@ -144,7 +142,7 @@ const IndexPage = () => (
 
 
     <div className="section spacer-zone">
-       <div className="columns">
+       <div className="columns" id="ShibaWorld">
         <div className="column gray">
           <h2>ShibaWorld Awaits</h2>
           <p>AniShib and 3DShib collections dropping soon.</p>
