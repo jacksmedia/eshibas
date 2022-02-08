@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 import PropTypes from "prop-types"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
