@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
-import SocialLinks from "./SocialLinks"
+import SocialMobileLinks from "./SocialMobileLinks"
+import SocialDesktopLinks from "./SocialDesktopLinks"
 import Logowrap from "./Logowrap"
 
 
@@ -108,7 +109,8 @@ const Navbar = () => {
     <TopBar>
       <Logowrap />
       <Socials>
-        <SocialLinks />
+        <SocialMobileLinks />
+        <SocialDesktopLinks />
       </Socials>
       <Toggle
         navbarOpen={navbarOpen}

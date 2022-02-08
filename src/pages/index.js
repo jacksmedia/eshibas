@@ -13,7 +13,7 @@ const IndexPage = () => (
       <p className="">Welcome to the NFT era, fren!</p>
       <p>Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
       <h1>Join us in Shibaworld.</h1>
-      <div className="columns">
+      <div className="columns level">
         <div className="column gray">
           <StaticImage
             className=""
@@ -69,11 +69,11 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="section spacer-zone">
+    <div className="section spacer-zone eshib-bg-6">
        <div className="columns">
         <div className="column gray">
-          <h2>#wagmi</h2>
-          <h2>Join Us</h2>
+          <h2>Shiba NFTs with their Own Metaverse</h2>
+          <h2>Wait until you hold one for a few weeks!</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
           <button className="shibutton">DISCORD</button>
         </div>
@@ -87,13 +87,12 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="section spacer-zone">
+    <div className="section spacer-zone eshib-bg-9">
        <div className="columns">
         <div className="column gray">
-          <h2>#wagmi</h2>
-          <h2>Join Us</h2>
+          <h2>About</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-          <button className="shibutton">DISCORD</button>
+          <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
@@ -106,13 +105,13 @@ const IndexPage = () => (
     </div>
 
 
-    <div className="section spacer-zone">
+    <div className="section spacer-zone eshib-bg-7">
        <div className="columns">
         <div className="column gray">
-          <h2>#wagmi</h2>
-          <h2>Join Us</h2>
+          <h2>Earn Passive Income</h2>
+          <h2>Maiar Exchange LKMEX</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-          <button className="shibutton">DISCORD</button>
+          <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
@@ -128,15 +127,15 @@ const IndexPage = () => (
     <div className="section spacer-zone">
        <div className="columns">
         <div className="column gray">
-          <h2>#wagmi</h2>
-          <h2>Join Us</h2>
+          <h2>WAFL tokens</h2>
+          <h2>Shiba love WAFL</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-          <button className="shibutton">DISCORD</button>
+          <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
     </div>
-    <div className="section spacer-zone eshib-bg-22">
+    <div className="section spacer-zone eshib-bg-wafl">
       <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
       <div className="slideshow level is-mobile">
         <div className="images01"></div>
@@ -147,18 +146,18 @@ const IndexPage = () => (
     <div className="section spacer-zone">
        <div className="columns">
         <div className="column gray">
-          <h2>#wagmi</h2>
-          <h2>Join Us</h2>
+          <h2>ShibaWorld Awaits</h2>
+          <h2>AniShib & 3D Shib</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
-          <button className="shibutton">DISCORD</button>
+          <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
     </div>
     <div className="section spacer-zone eshib-bg-5">
-      <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
-      <div className="slideshow level is-mobile">
-        <div className="images01"></div>
+      <h1 className="dark-forest-text">Ghostly Shibs exist, too! They all pay LKMEX </h1>
+      <div className="slideshow2 level is-mobile">
+        <div className="images-1"></div>
       </div>
     </div>
 
