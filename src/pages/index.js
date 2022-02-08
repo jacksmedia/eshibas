@@ -87,18 +87,19 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="section spacer-zone eshib-bg-9">
+    <div className="section spacer-zone eshib-bg-3">
        <div className="columns">
         <div className="column gray">
-          <h2>About</h2>
-          <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
+          <h2>Waves of Shiba are Arriving</h2>
+          <p>Sailing in from ShibaWorld, these cute frens pay you for owning them!</p>
+          <p>Mint or adopt one today!!</p>
           <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
     </div>
-    <div className="section spacer-zone eshib-bg-3">
-      <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
+    <div className="section spacer-zone eshib-bg-9">
+      <h1 className="dark-forest-text">Earn Passive Income</h1>
       <div className="slideshow level is-mobile">
         <div className="images01"></div>
       </div>
@@ -108,7 +109,6 @@ const IndexPage = () => (
     <div className="section spacer-zone eshib-bg-7">
        <div className="columns">
         <div className="column gray">
-          <h2>Earn Passive Income</h2>
           <h2>Maiar Exchange LKMEX</h2>
           <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
           <button className="shibutton">BUY NOW</button>
@@ -117,7 +117,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="section spacer-zone eshib-bg-21">
-      <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
+      <h1 className="dark-forest-text">Stake your LKMEX or spend it on NFTs! Every Saturady at 1400 UTC your Shibas will bring you more! #ShibaSaturday </h1>
       <div className="slideshow level is-mobile">
         <div className="images01"></div>
       </div>
@@ -129,14 +129,14 @@ const IndexPage = () => (
         <div className="column gray">
           <h2>WAFL tokens</h2>
           <h2>Shiba love WAFL</h2>
-          <p>Welcome to the NFT era, fren! Elrond blockchain is home to 5000 Shiba pets that pay you!</p>
+          <p>Every day each Shiba earns you a $WAFL token! Packs of Shibs will earn you free SFTs like Shiba Gardens and Shiba Farms!</p>
           <button className="shibutton">BUY NOW</button>
         </div>
         <div className="column gray">big slider of 3</div>
       </div>
     </div>
     <div className="section spacer-zone eshib-bg-wafl">
-      <h1 className="dark-forest-text">From the deep forests of Egold, here come the Elrond Shibas!</h1>
+      <h1 className="syrup-text">Read more about WAFL and the SFTs in the Whitepaper!</h1>
       <div className="slideshow level is-mobile">
         <div className="images01"></div>
       </div>
@@ -155,9 +155,15 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="section spacer-zone eshib-bg-5">
-      <h1 className="dark-forest-text">Ghostly Shibs exist, too! They all pay LKMEX </h1>
-      <div className="slideshow2 level is-mobile">
-        <div className="images-1"></div>
+      <div className="columns">
+        <div className="column">
+          <h1 className="dark-forest-text">Ghostly Shibs exist, too!</h1>
+          <h2 className="dark-forest-text">They all pay LKMEX and WAFL</h2>
+          <h2 className="dark-forest-text">Ghosts need homes, too!</h2>
+        </div>
+        <div className="slideshow2 column">
+          <div className="images-1"></div>
+        </div>
       </div>
     </div>
 
