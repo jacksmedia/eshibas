@@ -998,6 +998,15 @@ a:hover {
 .whyt {
   color: snow;
 }
+
+.hidden1 {
+  opacity: 0;
+}
+.visible1 {
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const SocialMobileLinks = () => {
   return (
-    <div className="is-hidden-desktop">
+    <div className="is-hidden-tablet">
       <NavItem href="https://discord.gg/ark67RKkrV" className="navicon">
         <i className="fab fa-discord is-hoverable"></i>
       </NavItem>
